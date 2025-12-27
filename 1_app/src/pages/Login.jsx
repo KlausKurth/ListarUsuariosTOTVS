@@ -1,7 +1,17 @@
 function Login() {
     return(
         <div className="container-login">
-            <h1>Login</h1>
+            <form className="form-login">
+                <h1>{'</Login>'}</h1>
+                <label>Login</label>
+                <input type="text" name="username" />
+                <label>Senha</label>
+                <input type="password" name="password" />
+                <div className="buttons">
+                    <button className="button-confirmar">Confirmar</button>
+                    <button className="button-cancelar">Cancelar</button>
+                </div>
+            </form>
         </div>
     )
 }
