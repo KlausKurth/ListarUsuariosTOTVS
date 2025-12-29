@@ -66,4 +66,10 @@ ou
 https://localhost:8080/rest/users?userName=klaus.kurth
 
 
+# Fluxo da lógica de login
+
+- Você consulta o Protheus com o userName.
+- Se o Protheus retorna exatamente um usuário, o login é aceito.
+- O displayName desse usuário é salvo no localStorage.
+- O Header só checa se existe esse valor no localStorage para decidir se mostra menu de logado ou não.
 
