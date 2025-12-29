@@ -37,3 +37,33 @@ npx create-react-app 1_app
 cd 1_app
 
 npm start
+
+
+# TOTVS API
+https://localhost:8080/rest
+
+
+# URL GET USERS
+
+
+# TEST POSTMAN HTTPS
+
+BASIC AUTH : Username:klaus.kurth 
+             Password:123456
+
+
+# TEST POSTMAN HTTP (modificar o arquivo appserver.ini)
+[HTTPREST]
+Port=8080
+URIs=HTTPURI
+SECURITY=0
+
+
+https://localhost:8080/rest/users/
+
+ou
+
+https://localhost:8080/rest/users?userName=klaus.kurth
+
+
+
