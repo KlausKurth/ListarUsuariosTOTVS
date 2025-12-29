@@ -8,7 +8,7 @@ function Header() {
             
             <nav className="nav-bar">
                 {
-                    localStorage.getItem('@1qpp/displayname') === null
+                    localStorage.getItem('@1app/displayname') === null
                     ?
                     <>
                     <NavLink to="/">Home</NavLink>

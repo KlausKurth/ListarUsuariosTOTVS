@@ -46,6 +46,7 @@ function Login() {
     const fnCancelar = (event) => {
         event.preventDefault()
         console.log("EVENTO CANCELAR =>", event)
+        navigate('/')
     }
 
     

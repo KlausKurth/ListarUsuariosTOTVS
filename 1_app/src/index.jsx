@@ -10,7 +10,7 @@ import ErrorPage from './pages/ErrorPage';
 import Users from './pages/Users';
 import UserDetails from './pages/UserDetails';
 import NewUser from './pages/NewUser';
-import Logout from './pages/Login';
+import Logout from './pages/Logout';
 
 
 
